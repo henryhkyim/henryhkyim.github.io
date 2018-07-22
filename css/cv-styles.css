@@ -1,0 +1,99 @@
+/* Blue color code from dark to light
+ * #000077
+ * #00B2FF
+ * #4DC9FF
+ * #80D9FF
+ * #B3E8FF
+ */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Calibri, Arial;
+  font-size: 18px;
+  background: #00B2FF;
+  padding: 0;
+  margin: 0;
+}
+
+header, footer {
+  background: #000077;
+}
+
+header p, footer p {
+  color: #B3E8FF;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  color: #B3E8FF;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+/*.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 40px;
+  border: 1px black solid;
+}
+*/
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.col-left {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.col-right {
+  width: 70%;
+  float: left;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+.center {
+  text-align: center;
+  padding-top: 20px;
+}
+
+a:link {
+  color: #B3E8FF;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: none;
+}
